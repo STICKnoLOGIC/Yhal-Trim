@@ -7,3 +7,4 @@
 * publish to maven/sonatype repository to be accessible thru gradle
 
 
+Copyright 2022 STICKnoLOGIC
