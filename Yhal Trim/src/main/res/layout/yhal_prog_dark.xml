@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/yhal_bg_dark">
+    <ProgressBar
+			android:id="@+id/p"
+			android:focusable="false"
+			android:layout_width="@dimen/_60sdp"
+			android:layout_height="@dimen/_60sdp"
+			android:padding="@dimen/_8sdp"
+			android:indeterminate="false"
+			style="?android:progressBarStyle" />
+
+			<Button
+		android:id="@+id/cancel"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_margin="@dimen/_8sdp"
+		android:padding="@dimen/_8sdp"
+		android:layout_below="@id/p"
+		android:text="Cancel"
+		android:textSize="@dimen/_16ssp"
+		android:background="@drawable/yhal_button_dark"
+		android:textColor="#ffffff" />
+		
+				<TextView
+			android:id="@+id/t"
+			android:focusable="false"
+			android:layout_width="wrap_content"
+			android:layout_height="@dimen/_60sdp"
+			android:gravity="center"
+			android:layout_toRightOf="@id/p"
+			android:layout_alignParentTop="true"
+			android:padding="@dimen/_8sdp"
+			android:text="Trimming..."
+			android:textSize="@dimen/_24ssp"
+			android:textColor="#ffffff" />
+    </RelativeLayout>
